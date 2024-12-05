@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    const name = prompt("What is your name?");
+    // const age = prompt("How old are you?");
+
+    if (name) {
+        const greet = confirm(`Hello ${name}, do you want to enter you age ??`);
+        const age = prompt("How old are you?");
+        if (parseInt(age) === age) {
+            alert(`welcome ${name}, you are ${age} years old`);
+        } else {
+            prompt(`Please enter your age in numbers only.`);
+    }
+}   else {
+            alert(`You didn't enter your name.`);
+        }
+</script>
+
+</html>
