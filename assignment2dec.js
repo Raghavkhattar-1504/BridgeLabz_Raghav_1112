@@ -54,11 +54,14 @@
 
 // addStudent("Raghav", "A");
 // addStudent("Rahul", "F");
-// const passStudents = students.filter((student) => {
-//     return student.grade !== 'F';
-// });
+// const passStudents = students.reduce(( acc, student) => {
+//     if (student.grade !== "F") {
+//         acc++;
+//     }
+//     return acc;
+// }, 0);
 // console.log(students);
-// console.log(passStudents.length);
+// console.log(passStudents);
 
 
 // List of Employees
