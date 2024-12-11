@@ -23,7 +23,30 @@
 - Conditional branching
 - OOPS concept
 - Interactions (Alert, prompt, confirm) 
-  
+
+**06-12-2024**
+- Logical and nullish coalescing operators
+- Polyfills
+- Transpilers
+- Recursion and stack
+
+**09-12-2024**
+- Rest paramters and spread operator
+- Variable scope
+- Closure
+- IIFE
+- NFE
+
+**10-12-2024**
+- "new function" syntax
+- Scheduling
+- Deorators
+- Forwarding
+- Call and apply
+- Function Binding
+
+**11-12-2024**
+
 
 
   
