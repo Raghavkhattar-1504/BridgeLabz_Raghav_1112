@@ -7,4 +7,5 @@ const prime = (n) => {
     return true;
 }
 
-console.log(prime(13));
+// console.log(prime(6));
+export  {prime};
