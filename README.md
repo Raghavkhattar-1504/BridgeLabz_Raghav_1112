@@ -80,6 +80,7 @@
 
 
 **12-12-2024**
+
 32. Create a function that will capitalize the first letter of each word in a text
 33. Calculate the sum of numbers received in a comma delimited string
 34. Create a function that returns an array with words inside a text.
