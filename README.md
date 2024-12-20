@@ -106,7 +106,30 @@ levels)
 52. Calculate Fibonacci(500) with high precision (all digits)
 53. Calculate 70! with high precision (all digits)
 
+**13-12-2024**
+- Predefined array class implementation
+- Custom array class and implementation
+- Various array problems
 
+**16-12-2024**
+- Linked List class using array
+- Linked list class without using array
+- Linked List implementation
+- Doubly linked list
+
+**17-12-2024**
+- Circular Linked List
+- Stack Implementation using arrays
+- Stack implementation without using arrays
+
+**18-12-2024**
+- Queue implementaion using array
+- Basic understanding and working of hash table
+
+**20-12-2024**
+- Hash table implementation
+- Binary search tree understanding
+- Binary Search tree implementation
 
   
   
