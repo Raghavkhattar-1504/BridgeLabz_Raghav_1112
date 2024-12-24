@@ -93,8 +93,6 @@ class BST{
     }
 }
 
-
-
 const tree = new BST();
 tree.insert(10);
 tree.insert(5);
