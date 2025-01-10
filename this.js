@@ -1,38 +1,79 @@
-console.log(this);
+const obj = {
+    name: "My Object",
+    regular: function () {
+      console.log(this.name);
+    },
+    arrow: () => {
+      console.log(this.name);
+    },
+  };
+  
+  obj.regular(); 
+  obj.arrow();  
+  
 
+  const regularFn = obj.regular;
+  const arrowFn = obj.arrow;
+  
+  regularFn();
+  arrowFn();  
+  
 console.log();
 
 
-function showThis() {
-    console.log(this);
-}
-showThis();
 
-console.log();
-
-
-const person = {
-    name: "Alice",
-    greet: function () {
+  const obj1 = {
+    name: "Outer Object",
+    method: function () {
+      console.log(this.name);
+  
+      function nested() {
         console.log(this.name);
-    }
-};
-person.greet();
+      }
+  
+      const nestedArrow = () => {
+        console.log(this.name); 
+      };
+  
+      nested();
+      nestedArrow();
+    },
+  };
+  
+  obj1.method();
 
+  console.log();
+  
+  
+  const obj2 = {
+    name: "Raghav",
+    method: function () {
+      const ans = this;
+      function nested() {
+        console.log(ans);
+        console.log(ans.name);
+         
+      }
+      nested();
+    },
+  };
+  
+  obj2.method();
+  
 
 console.log();
 
 
-const person1 = {
-    name: "Bob",
+
+  const obj3 = {
+    name: "object 3",
     greet: function () {
-        setTimeout(() => {
-            console.log(this.name);
-        }, 1000);
-    }
-};
-person1.greet();
-
-
-
-
+      console.log(`${this.name}`);
+    },
+  };
+  
+  const obj4 = { name: "Object 2" };
+  
+  obj3.greet();  
+  obj3.greet.call(obj4); 
+  
