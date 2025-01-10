@@ -29,9 +29,9 @@ obj5.a = 2;
 delete obj5.a; 
 console.log(obj5);
 
+let obj11 = {name : "hello"};
+let obj12 = obj11;
+let obj13 = obj12;
 
-
-
-
-
+console.log(Object.is(obj11, obj13));
 
