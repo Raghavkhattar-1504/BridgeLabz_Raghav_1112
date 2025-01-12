@@ -197,10 +197,56 @@ levels)
    - lca
    - path sum
    - diameter
+   - Convert Sorted Array to Binary Search Tree
+   - Max Depth of Binary Tree
 
   - Graph Problems
     - bfs
     - dfs
+
+**06-01-2025**
+- SOLID Principles
+  - Single Responsibility Principle
+  - Open Closed Principle
+  - Liskov Substitution Principle
+  - Interface Segregation Principle
+  - Dependency Inversion Principle
+ - Practice Problems on SOLID Principles
+
+**07-01-2025**
+ - Object and classes
+ - object reference copying - shallow and deep
+ - object methods
+ - optional chaining
+ - garbage collector
+ - getter and setter in objects
+ - object descriptors
+ - this and new keyword
+ - object to primitive
+
+**08-01-2025**
+- Problem statmenet on
+ - object
+ - object methods
+ - callback functions
+ - object flags and descriptors
+ - optional chaining
+ - deep copy and shallow copy
+
+**09-01-2025**
+ - Promises
+ - Promisifcation
+ - Promise APIs
+ - Custom Errors
+ - Promise Chaining
+
+**10-01-2025**
+ - Promises Practice
+ - Callbacks
+ - Hoisting
+ - Currying
+
+
 
   
   
