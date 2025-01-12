@@ -137,16 +137,16 @@ levels)
 
 **22-12-2024**
 - Array Questions
- - duplicate elements
- - missing number
- - pair with given sum
- - contiguous subarray with largest sum
- - longest increasing subsequence
- - maximum product of three numbers
- - move zeroes to the end
- - producy of array except self
- - rotate array
- - subarray with given sum
+  - duplicate elements
+  - missing number
+  - pair with given sum
+  - contiguous subarray with largest sum
+  - longest increasing subsequence
+  - maximum product of three numbers
+  - move zeroes to the end
+  - producy of array except self
+  - rotate array
+  - subarray with given sum
 
 **23-12-2024**
 - LinkedList Questions
@@ -180,16 +180,16 @@ levels)
    - Design a Data Stream for Median Finding
   
   - Hash Table Problems
-   - duplicate in arrays
-   - first unique character in a string
-   - group anagram
-   - intersection of two arrays
-   - longest substring without repeating characters
-   - subarray sum equals k
-   - top k frequent elements
-   - two sum
-   - Contiguous Subarray with the Largest Product
-   - Valid Anagram
+    - duplicate in arrays
+    - first unique character in a string
+    - group anagram
+    - intersection of two arrays
+    - longest substring without repeating characters
+    - subarray sum equals k
+    - top k frequent elements
+    - two sum
+    - Contiguous Subarray with the Largest Product
+    - Valid Anagram
 
  - Tree Problems
    - inorder traversal
