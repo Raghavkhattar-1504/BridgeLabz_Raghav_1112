@@ -131,5 +131,76 @@ levels)
 - Binary search tree understanding
 - Binary Search tree implementation
 
+**21-12-2024**
+- Graph implementation
+- review 3 (LinkedList question)
+
+**22-12-2024**
+- Array Questions
+ - duplicate elements
+ - missing number
+ - pair with given sum
+ - contiguous subarray with largest sum
+ - longest increasing subsequence
+ - maximum product of three numbers
+ - move zeroes to the end
+ - producy of array except self
+ - rotate array
+ - subarray with given sum
+
+**23-12-2024**
+- LinkedList Questions
+  - reverse a linked list
+  - detect a cycle
+  - merge two sorted linekd list
+  - middle of linked list
+  - remove nth node from end
+  - add two numbers
+  - palindrome linkedlist
+ 
+ **24-12-2024**
+- Stack Problems
+  - balanced paranthesis
+  - implement stack using two queues
+  - next greater element
+  - sort stack
+  - min stack
+  - stock span problem
+  - Largest Rectangle in Histogram
+  - Valid Parentheses with Multiple Types
+ 
+ 
+ **05-01-2025**
+ - Queue Problems
+   - Implement queue using two stacks
+   - Circular queue
+   - Queue Reversal
+   - Reverse first k elements in a queue
+   - Priority Queue
+   - Design a Data Stream for Median Finding
+  
+  - Hash Table Problems
+   - duplicate in arrays
+   - first unique character in a string
+   - group anagram
+   - intersection of two arrays
+   - longest substring without repeating characters
+   - subarray sum equals k
+   - top k frequent elements
+   - two sum
+   - Contiguous Subarray with the Largest Product
+   - Valid Anagram
+
+ - Tree Problems
+   - inorder traversal
+   - symmetric tree
+   - lca
+   - path sum
+   - diameter
+
+  - Graph Problems
+    - bfs
+    - dfs
+
   
   
