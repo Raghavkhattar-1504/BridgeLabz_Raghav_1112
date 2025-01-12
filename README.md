@@ -226,12 +226,12 @@ levels)
 
 **08-01-2025**
 - Problem statmenet on
- - object
- - object methods
- - callback functions
- - object flags and descriptors
- - optional chaining
- - deep copy and shallow copy
+  - object
+  - object methods
+  - callback functions
+  - object flags and descriptors
+  - optional chaining
+  - deep copy and shallow copy
 
 **09-01-2025**
  - Promises
