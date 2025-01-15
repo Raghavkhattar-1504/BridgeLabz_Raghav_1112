@@ -74,19 +74,19 @@ console.log(c1.radius = 7);
 
 
 
-const prom2 = new Promise((resolve, reject) => {
-    let data = fetch("https://dummyjson.com/users");
-    resolve(data);
-});
+// const prom2 = new Promise((resolve, reject) => {
+//     let data = fetch("https://dummyjson.com/users");
+//     resolve(data);
+// });
 
-prom2
-.then((data) => {
-    return data.json();
-})
-.then((data) => {
-    console.log(data);
-})
-.catch((err) => console.log(err));
+// prom2
+// .then((data) => {
+//     return data.json();
+// })
+// .then((data) => {
+//     console.log(data);
+// })
+// .catch((err) => console.log(err));
 
 
 
