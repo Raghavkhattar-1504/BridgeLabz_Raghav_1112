@@ -53,7 +53,7 @@ function fetchPromise(userId) {
 fetchPromise(1);
 
 
-
+//using async await
 async function fetchAsync(userId) {
     try {
         const res = await fetch(`https://jsonplaceholder.typicode.com/users/${userId}`);
