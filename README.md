@@ -246,7 +246,30 @@ levels)
  - Hoisting
  - Currying
 
+**13-01-2025**
+- Previous concepts practice for review.
 
+**14-01-2025**
+- Property getters and setters
+- Protoypes
+- native prototypes
 
+**15-01-2025**
+- Review 4
+- Objects without __proto__
+- Inheritance
+- class Inheritance
+- Extending built in classes
+
+**16-01-2025**
+- Custom Errors
+- Extending Error
+- Async await
+
+**17-01-2025**
+- Microtasks
+- OO programming using TS
+- Types (TS)
+- CLasses (TS)
   
   
