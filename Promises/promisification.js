@@ -1,15 +1,15 @@
-// function fetchData(callback) {
-//     const url = 'https://jsonplaceholder.typicode.com/posts';
-//     const res = fetch(url);
-//     if(res){
-//         callback();
-//     }
-// }
+function fetchData(callback) {
+    const url = 'https://jsonplaceholder.typicode.com/posts';
+    const res = fetch(url);
+    if(res){
+        callback();
+    }
+}
 
-// fetchData(function call() {
-//     console.log("Successful");
+fetchData(function call() {
+    console.log("Successful");
 
-// });
+});
 
 
 function fetchData() {
@@ -27,9 +27,9 @@ fetchData().then(data => {
     .catch(() => (console.log("error")));
 
 
-const authenticateUser = (userId, callback) => {
+const authUser = (userId, callback) => {
     if (userId) {
-        callback(null, { _id: userId, name: "John Doe", email: "john@example.com" });
+        callback(null, { id: userId, name: "raghav", email: "raghav@gmail.com" });
     } else {
         callback(new Error("Error: User not found"), null);
     }
@@ -39,7 +39,7 @@ const authenticateUser = (userId, callback) => {
 const auth = (userId) => {
     return new Promise((resolve, reject) => {
         if (userId) {
-            resolve({ _id: userId, name: "John Doe", email: "john@example.com" });
+            resolve({ id: userId, name: "Raghav", email: "raghav@gmail.com" });
         }
         else {
             reject(new Error("Error: User not found"));
